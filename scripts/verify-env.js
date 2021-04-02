@@ -3,7 +3,9 @@ const path = require("path");
 const fs = require("fs");
 
 try {
-  const envBuffer = fs.readFileSync(path.resolve(process.cwd(), ".env"));
+  const envBuffer = fs.readFileSync(
+    path.resolve(process.cwd(), ".env.production")
+  );
   const config = dotenv.parse(envBuffer);
 
   const publicEnv = JSON.parse(
