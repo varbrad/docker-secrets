@@ -1,0 +1,26 @@
+{
+  "name": "docker-secrets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "generate-env": "node ./scripts/generate-env.js",
+    "verify-env": "node ./scripts/verify-env.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbrad/docker-secrets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varbrad/docker-secrets/issues"
+  },
+  "homepage": "https://github.com/varbrad/docker-secrets#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.14.1"
+  }
+}

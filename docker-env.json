@@ -1,0 +1,8 @@
+{
+  "public": {
+    "test": [1, 2, 3]
+  },
+  "private": {
+    "something": 456
+  }
+}
